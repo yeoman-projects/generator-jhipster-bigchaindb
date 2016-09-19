@@ -1,7 +1,7 @@
 {
-  "name": "generator-jhipster-fortune",
+  "name": "generator-jhipster-bigchaindb",
   "version": "0.0.1",
-  "description": "Sample JHipster module, generates a \"fortune cookie\" page in your JHipster application",
+  "description": "Sample JHipster module, generates a \"bigchaindb\" page in your JHipster application",
   "homepage": "https://github.com/pierre-filliolaud/generator-jhipster-bigchaindb",
   "author": {
     "name": "Pierre-Alexandre Filliolaud",

@@ -4,7 +4,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 // Stores JHipster variables
-var jhipsterVar = {moduleName: 'fortune'};
+var jhipsterVar = {moduleName: 'bigchaindb'};
 
 // Stores JHipster functions
 var jhipsterFunc = {};
@@ -21,15 +21,15 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the ' + chalk.red('JHipster Fortune') + ' generator!'
+      'Welcome to the ' + chalk.red('JHipster BigChainDB') + ' generator!'
     ));
 
     if (jhipsterVar.databaseType !== 'sql') {
-      this.log(chalk.red('Error!') + ' The JHipster Fortune module only works with SQL databases');
+      this.log(chalk.red('Error!') + ' The JHipster BigChainDB module only works with BigChainDB databases');
       process.exit(1);
     }
     if (jhipsterVar.enableTranslation !== true) {
-      this.log(chalk.red('Error!') + ' The JHipster Fortune module only works when translation (i18n) is enabled');
+      this.log(chalk.red('Error!') + ' The JHipster BigChainDB module only works when translation (i18n) is enabled');
       process.exit(1);
     }
 
